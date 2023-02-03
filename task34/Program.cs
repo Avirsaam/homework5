@@ -34,7 +34,7 @@ string ArrayToPrettyString(int[] arrayToPrint){
     {
         strResult += arrayToPrint[i];
         
-        if (arrayToPrint.Length - i >1) strResult += ", ";
+        if (arrayToPrint.Length - i > 1) strResult += ", ";
         else strResult += "]";
     }
     return strResult;
